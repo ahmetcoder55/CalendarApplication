@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Core.DataAccess.Repositories.Abstract
 {
-    public interface IAppointmentRepository:IGenericRepository<Appointment>
+    public interface IAppointmentDal:IGenericRepository<Appointment>
     {
         Task<IEnumerable<Appointment>> GetAppointmentsByUserIdAsync(int userId);
         Task<IEnumerable<Appointment>> GetAppointmentsByDateRangeAsync(int userId, DateTime start, DateTime end);

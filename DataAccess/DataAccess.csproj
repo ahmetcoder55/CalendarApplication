@@ -8,7 +8,8 @@
 
   <ItemGroup>
     <Folder Include="Abstract\Data\" />
-    <Folder Include="Concrete\" />
+    <Folder Include="Concrete\UnitOfWorks\" />
+    <Folder Include="Concrete\Repositories\" />
   </ItemGroup>
 
 </Project>
