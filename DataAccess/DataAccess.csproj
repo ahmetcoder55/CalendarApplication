@@ -9,7 +9,10 @@
   <ItemGroup>
     <Folder Include="Abstract\Data\" />
     <Folder Include="Concrete\UnitOfWorks\" />
-    <Folder Include="Concrete\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
   </ItemGroup>
 
 </Project>
